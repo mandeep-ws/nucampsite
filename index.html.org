@@ -59,7 +59,7 @@
                 </div>
             </div>
         </nav>
-        <!--------------------------------------Login Button and Form------------------------------------------------------>
+        
         <div id="loginModal" class="modal fade" role="dialog">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -93,7 +93,6 @@
                                     <button type="button" class="btn btn-secondary btn-sm ml-auto"
                                         data-dismiss="modal">Cancel</button>
                                     <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
-                                    <button type="submit" data-dismiss="modal" data-target="#SignUpModal" data-toggle="modal" class="btn btn-success btn-sm ml-1">Sign up</button>
                                 </div>
                             </form>
                         </div>
@@ -102,47 +101,9 @@
             </div>
         </div>
 
-<!-----------------------------------------SignUp Form------------------------------------------------------------------------------>
-        <div id="SignUpModal" class="modal fade" role="dialog">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h3 class="modal-title">Sign Up </h3>
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="container-fluid">
-                            <form>
-                                <div class="form-row">
-                                    <div class="form-group col-12">
-                                        <label class="sr-only" for="loginEmail">Email address</label>
-                                        <input type="email" class="form-control form-control-sm" id="loginEmail" placeholder="Enter email">
-                                    </div>
-                                
-                                
-                                    <div class="form-group col-12">
-                                        <label class="sr-only" for="UserName">Your Name</label>
-                                        <input type="text" class="form-control form-control-sm" id="UserName" placeholder="Your name">
-                                    </div>
 
-                                    <div class="form-group col-12">
-                                        <label class="sr-only" for="loginPassword">Password</label>
-                                        <input type="password" class="form-control form-control-sm" id="loginPassword"
-                                                            placeholder="Password">
-                                    </div>
-                                </div>                    
-                                <div class="form-row">
-                                    <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
-                                    <button type="submit" class="btn btn-primary btn-sm ml-1">SignUp</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-<!---------- container1-row no.-6----------->
+    <!---------- container1-row no.-6----------->
         <div class="container">
             <div class="row row-content">
                 <div class="col-md-8 mx-auto">
@@ -158,7 +119,6 @@
                                 <div class="carousel-caption">
                                 <h3>Breadcrumb Trail Campground</h3>
                                 <p class="d-none d-sm-block">Let Nucamp be your guide to this off-the-beaten-path, hike-in-only campground.</p>
-                                <a href="#reserveForm" role="button" class="btn btn-sm btn-info" data-toggle="tooltip" data-placement="bottom">Reserve</a>
                                 </div>
                             </div>
                             <div class="carousel-item">
@@ -167,7 +127,6 @@
                                 <h3>React Lake Campground</h3>
                                 <p class="d-none d-sm-block">Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite
                                 for fly fishers</p>
-                                <a href="#reserveForm" role="button" class="btn btn-sm btn-info" data-toggle="tooltip" data-placement="bottom">Reserve</a>
                                 </div>
                             </div>
                             <div class="carousel-item">
@@ -176,7 +135,6 @@
                                     <h3>Chrome River Campground</h3>
                                     <p class="d-none d-sm-block">Spend a few sunny days and starry nights beneath a canopy of old-growth firs at this enchanting spot by the Chrome
                                 River.</p>
-                                <a href="#reserveForm" role="button" class="btn btn-sm btn-info" data-toggle="tooltip" data-placement="bottom">Reserve</a>
                                 </div>
                             </div>
                         </div>
